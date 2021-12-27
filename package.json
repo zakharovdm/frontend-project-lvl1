@@ -4,6 +4,9 @@
   "type": "module",
   "description": "Console game",
   "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +20,7 @@
     "url": "https://github.com/zakharovdm/frontend-project-lvl1/issues"
   },
   "homepage": "https://github.com/zakharovdm/frontend-project-lvl1#readme",
-  "bin": {
-    "brain-games": "bin/brain-games.js"
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
