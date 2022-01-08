@@ -9,5 +9,10 @@
 
 ## How to start
 
-### Install and demonstration game "Brain-even"
+### Install and demonstration game "brain-even"
+
 [![asciicast](https://asciinema.org/a/ER54gqfL7x5nr4wemCbaL0osf.svg)](https://asciinema.org/a/ER54gqfL7x5nr4wemCbaL0osf)
+
+### Demonstration game "brain-calc"
+
+[![asciicast](https://asciinema.org/a/6I7B9g7EjS2hedPvWMo6ZvPRI.svg)](https://asciinema.org/a/6I7B9g7EjS2hedPvWMo6ZvPRI)
