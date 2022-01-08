@@ -1,14 +1,6 @@
 import readlineSync from 'readline-sync';
-import _ from 'lodash';
-import greetingsUser from './cli.js';
-
-const lowerBound = 0;
-const upperBound = 100;
-
-const getRandomNumber = () => {
-  const randomNumber = _.random(lowerBound, upperBound);
-  return randomNumber;
-};
+import greetingsUser from '../src/cli.js';
+import getRandomNumber from '../src/index.js';
 
 const isEven = (number) => {
   if (number % 2 === 0) {
