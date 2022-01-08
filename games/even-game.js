@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 import greetingsUser from '../src/cli.js';
-import getRandomNumber from '../src/index.js';
+import { getRandomNumber } from '../src/index.js';
 
 const isEven = (number) => {
   if (number % 2 === 0) {
