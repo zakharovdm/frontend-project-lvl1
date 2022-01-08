@@ -1,45 +1,43 @@
-import readlineSync from 'readline-sync';
-import greetingsUser from '../src/cli.js';
-import { getRandomNumber, getRandomIndex, calculating } from '../src/index.js';
+import startGameLogic from '../index.js';
+import getRandomNumber from '../get-random.js';
 
 const operators = ['+', '-', '*'];
 
-const checkAnswer = (answer, result, name) => {
-  let isCorrect = true;
-  if (answer === result) {
-    console.log('Correct!');
-  } else {
-    console.log(`${answer} is wrong answer ;(. Correct answer was ${result}.`);
-    console.log(`Let's try again, ${name}!`);
-    isCorrect = false;
-  }
+const rules = 'What is the result of the expression?';
 
-  return isCorrect;
-};
+const MAX = operators.length;
+const LOWERBOUND = 0;
+const UPPERBOUND = 100;
 
-const startGame = () => {
-  let numberTries = 3;
-  const nameUser = greetingsUser();
-  console.log('What is the result of the expression?');
-
-  while (numberTries > 0) {
-    const firstValue = getRandomNumber();
-    const secondValue = getRandomNumber();
-    const operator = operators[getRandomIndex()];
-
-    const result = calculating(operator, firstValue, secondValue);
-    console.log(`Question: ${firstValue} ${operator} ${secondValue}`);
-    const answer = Number(readlineSync.question('Your answer: '));
-
-    if (!checkAnswer(answer, result, nameUser)) {
+const calculating = (operator, firstValue, secondValue) => {
+  let result;
+  switch (operator) {
+    case '+':
+      result = firstValue + secondValue;
       break;
-    }
-    numberTries -= 1;
+    case '-':
+      result = firstValue - secondValue;
+      break;
+    case '*':
+      result = firstValue * secondValue;
+      break;
+    default:
+      throw new Error(`Operator ${operator} is not supported.`);
   }
-
-  if (numberTries === 0) {
-    console.log(`Congratulations, ${nameUser}!`);
-  }
+  return result;
 };
+
+const generateQuestionAnswer = () => {
+  const firstValue = getRandomNumber(LOWERBOUND, UPPERBOUND);
+  const secondValue = getRandomNumber(LOWERBOUND, UPPERBOUND);
+  const operator = operators[getRandomNumber(0, MAX)];
+
+  const question = `${firstValue} ${operator} ${secondValue}`;
+  const answer = String(calculating(operator, firstValue, secondValue));
+
+  return [question, answer];
+};
+
+const startGame = () => startGameLogic(rules, generateQuestionAnswer);
 
 export default startGame;
