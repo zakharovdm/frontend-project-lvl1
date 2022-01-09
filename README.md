@@ -5,7 +5,9 @@
 
 # Brain games
 
-Сonsole games with different tasks.
+There are 5 games. In each game you need to answer 3 questions.
+If you answer the questions correctly 3 times in a row - you win game!
+If you gave at least one wrong answer - the game will end and you can start over.
 
 ## How to start
 
@@ -16,3 +18,7 @@
 ### Demonstration game "brain-calc"
 
 [![asciicast](https://asciinema.org/a/6I7B9g7EjS2hedPvWMo6ZvPRI.svg)](https://asciinema.org/a/6I7B9g7EjS2hedPvWMo6ZvPRI)
+
+### Demonstration game "brain-gcd"
+
+[![asciicast](https://asciinema.org/a/tqNmdIaqKjrsuWKDn5KG53mFz.svg)](https://asciinema.org/a/tqNmdIaqKjrsuWKDn5KG53mFz)

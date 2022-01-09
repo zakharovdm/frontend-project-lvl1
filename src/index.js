@@ -11,7 +11,7 @@ const startGameLogic = (rules, generateQuestionAnswer) => {
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
-    if (userAnswer !== correctAnswer) {
+    if (userAnswer !== String(correctAnswer)) {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
       console.log(`Let's try again, ${nameUser}!`);
       return;

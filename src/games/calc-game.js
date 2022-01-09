@@ -33,7 +33,7 @@ const generateQuestionAnswer = () => {
   const operator = operators[getRandomNumber(0, MAX)];
 
   const question = `${firstValue} ${operator} ${secondValue}`;
-  const answer = String(calculating(operator, firstValue, secondValue));
+  const answer = calculating(operator, firstValue, secondValue);
 
   return [question, answer];
 };
