@@ -22,3 +22,7 @@ If you gave at least one wrong answer - the game will end and you can start over
 ### Demonstration game "brain-gcd"
 
 [![asciicast](https://asciinema.org/a/tqNmdIaqKjrsuWKDn5KG53mFz.svg)](https://asciinema.org/a/tqNmdIaqKjrsuWKDn5KG53mFz)
+
+### Demonstration game "brain-progression"
+
+[![asciicast](https://asciinema.org/a/xaiP3sNgQZz2Qd70UxxlPvV2K.svg)](https://asciinema.org/a/xaiP3sNgQZz2Qd70UxxlPvV2K)
