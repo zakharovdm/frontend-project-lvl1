@@ -11,6 +11,14 @@ If you gave at least one wrong answer - the game will end and you can start over
 
 ## How to start
 
+ At the root of the project
+```
+make install
+```
+``` 
+sudo npm link 
+```
+
 ### Install and demonstration game "brain-even"
 
 [![asciicast](https://asciinema.org/a/ER54gqfL7x5nr4wemCbaL0osf.svg)](https://asciinema.org/a/ER54gqfL7x5nr4wemCbaL0osf)
