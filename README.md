@@ -26,3 +26,7 @@ If you gave at least one wrong answer - the game will end and you can start over
 ### Demonstration game "brain-progression"
 
 [![asciicast](https://asciinema.org/a/xaiP3sNgQZz2Qd70UxxlPvV2K.svg)](https://asciinema.org/a/xaiP3sNgQZz2Qd70UxxlPvV2K)
+
+### Demonstration game "brain-prime"
+
+[![asciicast](https://asciinema.org/a/YOC8yIbvgt7xO0UBfFThrzOGq.svg)](https://asciinema.org/a/YOC8yIbvgt7xO0UBfFThrzOGq)
