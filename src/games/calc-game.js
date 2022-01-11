@@ -5,7 +5,7 @@ const operators = ['+', '-', '*'];
 
 const rules = 'What is the result of the expression?';
 
-const MAX = operators.length;
+const MAX = operators.length - 1;
 const LOWERBOUND = 0;
 const UPPERBOUND = 100;
 
