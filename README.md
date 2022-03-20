@@ -19,22 +19,22 @@ make install
 sudo npm link 
 ```
 
-### Install and demonstration game "brain-even"
+### Demonstration game "brain-even"
 
-[![asciicast](https://asciinema.org/a/ER54gqfL7x5nr4wemCbaL0osf.svg)](https://asciinema.org/a/ER54gqfL7x5nr4wemCbaL0osf)
+[![asciicast](https://asciinema.org/a/u2GB2jS9G9ax083GByA58qYFL.svg)](https://asciinema.org/a/u2GB2jS9G9ax083GByA58qYFL)
 
 ### Demonstration game "brain-calc"
 
-[![asciicast](https://asciinema.org/a/6I7B9g7EjS2hedPvWMo6ZvPRI.svg)](https://asciinema.org/a/6I7B9g7EjS2hedPvWMo6ZvPRI)
+[![asciicast](https://asciinema.org/a/veCoiTnCsUFgTozUp1RyM4wZQ.svg)](https://asciinema.org/a/veCoiTnCsUFgTozUp1RyM4wZQ)
 
 ### Demonstration game "brain-gcd"
 
-[![asciicast](https://asciinema.org/a/tqNmdIaqKjrsuWKDn5KG53mFz.svg)](https://asciinema.org/a/tqNmdIaqKjrsuWKDn5KG53mFz)
+[![asciicast](https://asciinema.org/a/znyIhrs5sB99p7p37mZuFz5hU.svg)](https://asciinema.org/a/znyIhrs5sB99p7p37mZuFz5hU)
 
 ### Demonstration game "brain-progression"
 
-[![asciicast](https://asciinema.org/a/xaiP3sNgQZz2Qd70UxxlPvV2K.svg)](https://asciinema.org/a/xaiP3sNgQZz2Qd70UxxlPvV2K)
+[![asciicast](https://asciinema.org/a/sC7R2OyeiIP0Rz9sd1vGUFla0.svg)](https://asciinema.org/a/sC7R2OyeiIP0Rz9sd1vGUFla0)
 
 ### Demonstration game "brain-prime"
 
-[![asciicast](https://asciinema.org/a/YOC8yIbvgt7xO0UBfFThrzOGq.svg)](https://asciinema.org/a/YOC8yIbvgt7xO0UBfFThrzOGq)
+[![asciicast](https://asciinema.org/a/0FjfnzJxStIjGwg6fXOh8R1df.svg)](https://asciinema.org/a/0FjfnzJxStIjGwg6fXOh8R1df)
